@@ -1,0 +1,19 @@
+.menu {
+    display:flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    background-color: steelblue;
+    color: white;
+}
+
+a{
+    font-size: 20px;
+    color:white;
+}
+
+a + a{
+    margin-left: 8px;
+}
